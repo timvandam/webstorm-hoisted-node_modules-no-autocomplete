@@ -5,6 +5,8 @@ Setup:
 The bug:
 React autocompletion does not work when hoisting node modules.
 
+Note that `./asd` is inside of the root package.json's workspaces.
+
 To see it in action, head to `asd/src/App.tx` and try to autocomplete props inside of the Button component
 
 The "asd" folder is a copy of https://github.com/mui-org/material-ui/tree/master/examples/create-react-app-with-typescript.
